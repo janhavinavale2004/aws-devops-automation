@@ -11,7 +11,7 @@ def test_home():
     data = response.get_json()
 
     assert data["status"] == "running"
-    assert data["message"] == "AWS DevOps Automation Project"
+    assert data["message"] == "AWS DevOps Automation CICD Project"
 
 
 def test_health():
